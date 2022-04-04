@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
 
-import django_heroku
+# import django_heroku
 
 from pathlib import Path
 # import mimetypes
@@ -141,5 +141,5 @@ STATICFILES_DIRS =[
 AUTH_USER_MODEL= 'Accounts.User'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Activate django heroku
-django_heroku.settings(locals())
+## Activate django heroku
+# django_heroku.settings(locals())
